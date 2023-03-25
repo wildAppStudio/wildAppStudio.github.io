@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .container-basic {
+        @apply container max-w-5xl mx-auto px-5 lg:px-0;
+    }
+    .container-small {
+        @apply container max-w-3xl mx-auto px-5 lg:px-0;
+    }
+
+    .text-14 {
+        @apply transition ease-in-out text-sm text-neutral-900 dark:text-neutral-200;
+    }
+    .text-16 {
+        @apply transition ease-in-out text-base leading-normal text-neutral-900 dark:text-neutral-200;
+    }
+    .text-16-reversed {
+        @apply transition ease-in-out text-base leading-normal text-neutral-200 dark:text-neutral-900;
+    }
+    .text-16-bold {
+        @apply transition ease-in-out text-base leading-normal text-neutral-900 dark:text-neutral-200 font-semibold;
+    }
+    .text-16-bold-reversed {
+        @apply transition ease-in-out text-base leading-normal text-neutral-200 dark:text-neutral-900 font-semibold;
+    }
+    .text-16-selected {
+        @apply transition ease-in-out text-base leading-normal text-neutral-900 dark:text-neutral-50 font-semibold;
+    }
+    .text-16-unselected {
+        @apply transition ease-in-out text-base leading-normal text-neutral-400 dark:text-neutral-500;
+    }
+    .text-16-sub {
+        @apply transition ease-in-out text-base leading-normal text-neutral-500 dark:text-neutral-400;
+    }
+    .text-16-link {
+        @apply transition ease-in-out text-base leading-normal text-sky-600 dark:text-sky-400 font-semibold;
+    }
+    .text-18-bold {
+        @apply transition ease-in-out text-lg leading-normal text-neutral-900 dark:text-neutral-200 font-semibold;
+    }
+    .text-18 {
+        @apply transition ease-in-out text-lg leading-normal text-neutral-900 dark:text-neutral-200;
+    }
+    
+    .text-20 {
+        @apply transition ease-in-out text-xl leading-normal text-neutral-900 dark:text-neutral-200;
+    }
+    .text-20-bold {
+        @apply transition ease-in-out text-xl leading-normal text-neutral-900 dark:text-neutral-200 font-semibold;
+    }
+    .text-24 {
+        @apply transition ease-in-out text-2xl leading-normal text-neutral-900 dark:text-neutral-200;
+    }
+    .text-24-bold {
+        @apply transition ease-in-out text-2xl leading-normal text-neutral-900 dark:text-neutral-200 font-semibold;
+    }
+
+    .text-30-bold {
+        @apply transition ease-in-out text-3xl leading-normal text-neutral-900 dark:text-neutral-200 font-semibold;
+    }
+    .text-36 {
+        @apply transition ease-in-out text-4xl leading-normal text-neutral-900 dark:text-neutral-200;
+    }
+    .text-36-bold {
+        @apply transition ease-in-out text-4xl leading-normal text-neutral-900 dark:text-neutral-200 font-semibold;
+    }
+
+    .text-36-bold-reversed {
+        @apply transition ease-in-out text-4xl leading-normal text-neutral-200 dark:text-neutral-900 font-semibold;
+    }
+    .background-card {
+        @apply transition ease-in-out bg-white dark:bg-neutral-800;
+    }
+    .divider-sub-color {
+        @apply border-neutral-400 dark:border-neutral-600;
+    }
+    .divider-main-color {
+        @apply border-neutral-900 dark:border-neutral-200;
+    }
+}
