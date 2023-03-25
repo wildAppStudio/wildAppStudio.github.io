@@ -1,0 +1,1 @@
+const r=({fetch:o,params:t})=>({app:(async()=>{const e=(await(await o("/appInfo.json")).json()).filter(n=>n.id===t.appId);return e.length===0?{info:{title:"Error",image:"",description:"App Not Found"}}:e[0]})(t.appId)}),c=Object.freeze(Object.defineProperty({__proto__:null,load:r},Symbol.toStringTag,{value:"Module"}));export{c as _,r as l};

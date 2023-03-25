@@ -1,0 +1,1 @@
+const a=({fetch:t})=>({app:(async()=>await(await t("/appInfo.json")).json())()}),r=Object.freeze(Object.defineProperty({__proto__:null,load:a},Symbol.toStringTag,{value:"Module"}));export{r as _,a as l};
