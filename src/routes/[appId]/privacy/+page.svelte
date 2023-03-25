@@ -1,4 +1,6 @@
 <script>
+    import {each} from 'svelte/internal';
+
     export let data;
     const {app} = data;
 </script>
